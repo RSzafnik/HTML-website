@@ -335,7 +335,6 @@ html {
         width: auto;
     }
 
-    /* Zakładka 'O Nas' - zmiana układu na pionowy */
     .about-us h2 {
         text-align: center;
         font-size: 24px;
@@ -362,8 +361,7 @@ html {
         width: 150px;
     }
 
-    /* Stylizacja informacji o pracowniku */
-    /* Stylizacja nagłówka imienia i nazwiska */
+
     .employee-info {
         padding-left: 0;
     }
@@ -374,7 +372,7 @@ html {
 
     }
 
-    /* Stylizacja paragrafu z opisem */
+
     .employee-info p {
         font-size: 14px;
         margin-bottom: 20px;
@@ -383,7 +381,6 @@ html {
     }
 
 
-    /* Zakładka 'Oferta' - boxy w pionie, zmniejszenie szerokości */
     .offer h2 {
         font-size: 24px;
         margin-bottom: 20px;
@@ -401,7 +398,7 @@ html {
 
     }
 
-    /* Footer - tekst i ikony w pionie, wyśrodkowane */
+
     .footer {
         flex-direction: column;
         padding-bottom: 20px;
