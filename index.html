@@ -4,35 +4,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+    <link href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css rel="stylesheet">
     <link rel="stylesheet" href="/styles.css">
     <title>Strona Firmy</title>
 </head>
 
-<body>
-    <div class="container">
-        <nav class="navbar">
+<body class="main-body">
+    <nav class="navbar">
+        <div class="main-container">
             <ul class="navbar-list">
-                <li class="landing-list">Moja Firma</li>
-                <li><a href="#about-us">O Nas</a></li>
-                <li><a href="#offer">Oferta</a></li>
-                <li class="disabled">Kontakt</li>
+                <li class="navbar-item">Moja Firma</li>
+                <li><a href="#about-us" class="navbar-link">O Nas</a></li>
+                <li><a href="#offer" class="navbar-link">Oferta</a></li>
+                <li class="navbar-disabled">Kontakt</li>
             </ul>
-        </nav>
-        <section id="landing-page" class="landing-page">
-            <div class="overlay">
-                <h1>Nasza firma oferuje najwyższej<br>jakości produkty</h1>
-                <p>Nie wierz nam na słowo - sprawdź</p>
-                <a href="#offer" class="btn-offer">Oferta</a>
+        </div>
+    </nav>
+    <section id="landing-page" class="landing-page">
+        <div class="landing-overlay">
+            <div class="main-container">
+                <h1 class="landing-heading">Nasza firma oferuje najwyższej jakości produkty</h1>
+                <p class="landing-text">Nie wierz nam na słowo - sprawdź</p>
+                <a href="#offer" class="btn-offer">oferta</a>
             </div>
-        </section>
-        <section id="about-us" class="about-us">
-            <h2>Nasi specjaliści</h2>
+        </div>
+    </section>
+    <section id="about-us" class="about-us">
+        <div class="main-container">
+            <h2 class="about-heading">Nasi specjaliści</h2>
             <div class="employee">
                 <div class="employee-image" style="background-image: url('/assets/empl-1.jpg');"></div>
                 <div class="employee-info">
-                    <h3>Imię Nazwisko [dział]</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste impedit beatae porro qui itaque
+                    <h3 class="employee-name">Imię Nazwisko [dział]</h3>
+                    <p class="employee-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste
+                        impedit beatae porro qui itaque
                         veniam libero esse nihil ullam atque incidunt ipsum animi voluptas ducimus odit, illum iusto
                         consequuntur ratione eos perspiciatis temporibus! Optio beatae fugiat atque, quis labore
                         corporis eligendi. Id repellat cum officiis maxime.</p>
@@ -41,18 +46,21 @@
             <div class="employee">
                 <div class="employee-image" style="background-image: url('/assets/empl-2.jpg');"></div>
                 <div class="employee-info">
-                    <h3>Imię Nazwisko [dział]</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa voluptas repudiandae ipsam quisquam
+                    <h3 class="employee-name">Imię Nazwisko [dział]</h3>
+                    <p class="employee-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+                        voluptas repudiandae ipsam quisquam
                         provident illo consequatur placeat veritatis nemo similique? Necessitatibus beatae alias nihil
                         repellendus! Ex beatae animi recusandae, facilis molestiae sit pariatur consequuntur facere
                         corporis delectus nam deleniti aliquam nihil dignissimos libero, alias, accusantium ratione?</p>
                 </div>
             </div>
-        </section>
-        <section id="offer" class="offer">
-            <h2>Czym zajmuję się nasza firma?</h2>
+        </div>
+    </section>
+    <section id="offer" class="offer">
+        <div class="main-container">
+            <h2 class="offer-heading">Czym zajmuję się nasza firma?</h2>
             <div class="offer-boxes">
-                <div class="offer-box">Box 1(nowość)
+                <div class="offer-box">Box 1<br />(nowość)
                     <div class="new-dot"></div>
                 </div>
                 <div class="offer-box">Box 2</div>
@@ -61,14 +69,17 @@
                 <div class="offer-box">Box 5</div>
                 <div class="offer-box">Box 6</div>
             </div>
-        </section>
-        <footer id="footer" class="footer">
-            <p> Nazwa firmy. Wszelkie prawa zastrzeżone.</p>
-            <div class=logos>
-                <i class="fab fa-instagram"></i>
-                <i class="fab fa-facebook-f"></i>
+        </div>
+    </section>
+    <footer id="footer" class="footer-section">
+        <div class="main-container">
+            <p class="footer-text">Nazwa firmy - Wszelkie prawa zastrzeżone.</p>
+            <div class="social-logos">
+                <i class="fab fa-instagram social-icon"></i>
+                <i class="fa-brands fa-square-facebook social-icon"></i>
             </div>
-        </footer>
+        </div>
+    </footer>
 </body>
 
 </html>
